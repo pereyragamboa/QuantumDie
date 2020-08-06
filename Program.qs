@@ -1,4 +1,4 @@
-﻿namespace QuantumDie {
+﻿namespace PereyraGamboa.Quantum.QuantumDieLib {
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Math;
@@ -7,7 +7,7 @@
     @EntryPoint()
     operation QuantumDie () : Int {
         mutable res = 0;
-        let theta = 2. * ArcCos(Sqrt(2. / 3.));
+        let theta = 2. * ArcTan(Sqrt(0.5));
 
         using (qs = Qubit[3]) {
             H(qs[0]);
