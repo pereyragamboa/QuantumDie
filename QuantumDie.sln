@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumDieLib", "QuantumDieLib\QuantumDieLib.csproj", "{83A89B1E-FF21-4AB4-8688-90778B8EB187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantumDieLib", "QuantumDieLib\QuantumDieLib.csproj", "{83A89B1E-FF21-4AB4-8688-90778B8EB187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumDieHost", "QuantumDieHost\QuantumDieHost.csproj", "{9D72436C-A483-40ED-A174-F78D5ED402B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantumDieHost", "QuantumDieHost\QuantumDieHost.csproj", "{9D72436C-A483-40ED-A174-F78D5ED402B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
